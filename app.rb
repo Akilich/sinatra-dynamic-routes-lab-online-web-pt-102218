@@ -27,7 +27,7 @@ class App < Sinatra::Base
     "#{@num+@num2}"
     "#{@num2 - @num}"
     "#{@num*@num2}"
-    "#{@num"
+    "#{@num / @num2}"
   en
   
 end
