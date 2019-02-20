@@ -17,7 +17,7 @@ class App < Sinatra::Base
     "#{phrase}" * num
   end
   
-  get '/square/:number' do
+  get '/say/:word1/:word2/:word3/:word4/:word5' do
     @num = params[:number].to_i
     "#{@num**2}"
   end
