@@ -28,6 +28,5 @@ class App < Sinatra::Base
     "#{@num2 - @num}"
     "#{@num*@num2}"
     "#{@num / @num2}"
-  en
-  
+  end
 end
