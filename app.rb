@@ -21,9 +21,13 @@ class App < Sinatra::Base
     "#{params[:word1] +" "+ params[:word2]+" "+params[:word3]+" "+params[:word4]+" "+params[:word5]+"."}"
   end
   
-  get '/square/:number' do
+  get '/:operation/:number1/:number2' do
     @num = params[:number].to_i
-    "#{@num**2}"
+    @num2 = params[:number2].to_i
+    "#{@num+@num2}"
+    "#{@num2 - @num}"
+    "#{@num*@num2}"
+    "#{@num"
   en
   
 end
